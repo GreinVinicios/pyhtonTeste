@@ -5,7 +5,7 @@ print("***********")
 numero_secreto = 43
 total_de_tentativas = 3
 
-while(total_de_tentativas > 0):
+for i in range(1,total_de_tentativas+1):
     print("Ainda restam {} tentativas".format(total_de_tentativas))
     chute = input("Digite o seu nº: ")
     chute = int(chute)
